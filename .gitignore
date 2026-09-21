@@ -1,0 +1,21 @@
+terraform.tfvars
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfplan
+__pycache__/
+*.pyc
+.python_packages/
+function_deploy.zip
+deploy_temp/
+ 
+# Local working notes — not part of the public repo
+CLAUDE.md
+.claude/
+ 
+# OS / editor noise
+.DS_Store
+Thumbs.db
+ 
